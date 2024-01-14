@@ -18,7 +18,7 @@ Below you will find a list of dispatched events:
 - `BeyondCode\LaravelWebSockets\Events\SubscribedToChannel` - when a connection subscribes to a specific channel
 - `BeyondCode\LaravelWebSockets\Events\UnsubscribedFromChannel` - when a connection unsubscribes from a specific channel
 - `BeyondCode\LaravelWebSockets\Events\WebSocketMessageReceived` - when the server receives a message
-- `BeyondCode\LaravelWebSockets\EventsConnectionPonged` - when a connection pings to the server that it is still alive
+- `BeyondCode\LaravelWebSockets\Events\ConnectionPonged` - when a connection pings to the server that it is still alive
 
 ## Queued Listeners
 
